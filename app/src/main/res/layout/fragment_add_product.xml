@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:background="@drawable/edittext_bg"
+            android:backgroundTint="@color/white"
+            android:padding="10dp"
+            android:minHeight="150dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAddPictures"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/green_bordered_btn_bg"
+                android:text="Add Picture"
+                android:textAllCaps="false"
+                android:textColor="@color/dark_green"
+                android:drawableStart="@drawable/ic_baseline_add_24"
+                android:padding="10dp"
+                android:drawablePadding="10dp"
+                android:layout_centerInParent="true"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:elevation="10dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivProduct"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@color/dark_green"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:layout_marginHorizontal="16dp"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:layout_marginHorizontal="16dp"
+            android:inputType="numberDecimal"
+            />
+
+        <EditText
+            android:id="@+id/etState"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State e.g new or old"
+            android:layout_marginHorizontal="16dp"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describe your article.."
+            android:ems="1"
+            android:lines="5"
+            android:layout_marginHorizontal="16dp"
+            android:inputType="textMultiLine"
+            android:gravity="start"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAddProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/btn_bg"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:backgroundTint="@color/light_greenish"
+                android:text="Add"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                />
+
+        </RelativeLayout>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>

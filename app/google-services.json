@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "131398210812",
+    "project_id": "limdod-dbcb0",
+    "storage_bucket": "limdod-dbcb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131398210812:android:31cf4b8f9fae8a3b5e7379",
+        "android_client_info": {
+          "package_name": "com.limdod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131398210812-dovevgchfhk5tt5m1j7fimm12stj50ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGWLkiD9cBReaPUt3ZIPMtxzmmz5J83ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131398210812-dovevgchfhk5tt5m1j7fimm12stj50ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
