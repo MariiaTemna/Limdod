@@ -87,15 +87,6 @@ public class BuyActivity extends AppCompatActivity
         sheetBinding.tvTotalPrice.setText("$" + product.getPrice());
 
 
-        sheetBinding.ivClose.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                dialog.dismiss();
-            }
-        });
-
         sheetBinding.btnBuy.setOnClickListener(new View.OnClickListener()
         {
             @Override
