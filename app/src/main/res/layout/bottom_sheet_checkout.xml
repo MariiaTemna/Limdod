@@ -25,15 +25,6 @@
                 />
 
 
-            <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/ivClose"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_close_24"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                />
-
 
         </RelativeLayout>
 
@@ -86,14 +77,6 @@
                         android:layout_marginEnd="10dp"
                         />
 
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-                        android:tint="@color/purple_500"
-                        android:layout_centerVertical="true"
-                        />
-
                 </androidx.appcompat.widget.LinearLayoutCompat>
 
 
@@ -141,14 +124,6 @@
                         android:textColor="@color/purple_500"
                         android:textStyle="bold"
                         android:layout_marginEnd="10dp"
-                        />
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-                        android:tint="@color/purple_500"
-                        android:layout_centerVertical="true"
                         />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
@@ -199,14 +174,6 @@
                         android:textColor="@color/purple_500"
                         android:textStyle="bold"
                         android:layout_marginEnd="10dp"
-                        />
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-                        android:tint="@color/purple_500"
-                        android:layout_centerVertical="true"
                         />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>
